@@ -1,5 +1,3 @@
-
-
 const form = document.querySelector('#memeForm');
 const userBottomText = document.querySelector('input[name="bottomText"]');
 const userTopText = document.querySelector('input[name="topText"]');
@@ -21,10 +19,7 @@ form.addEventListener('submit', function (e) {
         memeImg.src = userImg.value;
     }
 
-
 });
-
-
 
 form.addEventListener('change', function (e) {
 
@@ -34,8 +29,6 @@ form.addEventListener('change', function (e) {
         const img = new Image()
         img.src = reader.result
         memeImg.src = img.src;
-
-
 
     }
 
