@@ -1,0 +1,118 @@
+#meme_top_text {
+    background-color: transparent;
+    font-size: 40px;
+    font-family: "Impact";
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    width: 600px;
+    position: absolute;
+    left: 425px;
+    top: 425px;
+    
+}
+
+#meme_bottom_text {
+    background-color: transparent;
+    font-size: 40px;
+    font-family: "Impact";
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    width: 600px;
+    position: absolute ;
+    left: 425px;
+    top: 800px;
+}
+
+#style{
+
+align-content: center;
+text-align: center;
+
+}
+
+#header {
+
+    border: solid;
+    border-color: black;
+  
+
+  
+
+}
+
+h1 {
+
+font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.image {
+
+font-size: 20px;
+border: 2px solid black;
+border-radius: 10px;
+position: relative ;
+text-align: center;
+
+
+}
+
+.topText {
+
+    font-size: 20px;
+    border: 2px solid black;
+border-radius: 10px;
+position: relative ;
+  text-align: center;
+}
+
+
+
+.bottomText {
+
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative ;
+    text-align: center;
+}
+
+button {
+    /* 
+     */
+     width: 100px;
+  color: #20BF7E;
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+  text-decoration: none;
+  
+  border: solid #20BF7E 4px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 25px;
+  position: relative ;
+ 
+
+  }
+
+  button:hover {
+    background-color: #20BF7E;
+    color: white;
+  }
+
+
+  #file {
+    border: solid #20BF7E 4px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    position: relative ;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+  
+
+  }
