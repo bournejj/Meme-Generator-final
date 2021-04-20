@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Meme-Generator.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>Meme Generator</title>
+</head>
+
+<body>
+
+
+
+    <section id="style">
+
+        <div>
+
+            <h1>My Meme Generator</h1>
+
+            <form action="" id="memeForm">
+
+                <section>
+                    <div>
+                        <br>
+                        <label for="userImageFile"></label>
+                        <input type="file" id="file">
+                    </div>
+
+                    <div>
+                        <br>
+                        <label for="Userimage"></label>
+                        <input class="image" type="text" name="image" placeholder="Paste image url">
+
+                    </div>
+
+
+
+                    <br>
+                    <div>
+                        <label for="HigherText"></label>
+                        <input class="topText" type="text" name="topText" placeholder="Type top text">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="lowerText"></label>
+                        <input class="bottomText" type="text" name="bottomText" placeholder="Type botom text">
+                    </div>
+                    <br>
+                    <div>
+                        <button>Submit</button>
+                    </div>
+                    <br>
+
+
+
+            </form>
+            <section id="pic">
+                <div id="meme_bottom_text" maxlength="70" oninput="update_text()">Dank meme bottom</div>
+                <div id="meme_top_text" maxlength="70" oninput="update_text()">Dank meme top</div>
+                <div id="meme_picture"><img src="" height="500" width="600"></div>
+                <section>
+                </section>
+                <script src="Meme-Generator.js"></script>
+</body>
+
+</html>
