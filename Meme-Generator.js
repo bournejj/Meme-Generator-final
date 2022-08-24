@@ -50,20 +50,7 @@ function makeMeme(bottomText, topText, img){
 console.log(memeBox)
  return memeBox
 }
-// form.addEventListener('change', function (e) {
 
-//     e.preventDefault();
-//     const reader = new FileReader()
-//     reader.onload = function () {
-//         const img = new Image()
-//         img.src = reader.result
-//         memeImg.src = img.src;
-
-//     }
-
-
-//     reader.readAsDataURL(image.files[0])
-// });
 
 
 
